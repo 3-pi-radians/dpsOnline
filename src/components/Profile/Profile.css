@@ -1,0 +1,109 @@
+
+.BackgroundLayout {
+  height: 100%;
+  width : 100%;
+  position: fixed;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Profilenav {
+  display: flex;
+  padding-left: 15%;
+}
+.Home {
+  color :  #f5af19;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  width: 12%;
+  padding: 20px;
+}
+.Username {
+  color: #08D5E4;
+  font-size: 30px;
+  width: 88%;
+  text-align: center;
+  padding: 20px;
+}
+.ProfileContainer {
+	width:40%;
+	position: relative;
+	top: 50px;
+	left: 10px;
+  line-height: 20px
+}
+.Profileinfo {
+	color: #08D5E4 ;
+	font-size: 25px;
+	height: 70px;
+	text-align: center;
+}
+.ChartContainer {
+	width: 600px;
+	height: 600px;
+  position: absolute;
+	top : 100px;
+	left :50%;
+	background: #fff;
+}
+
+@media all and (max-width: 700px) {
+ .Home {
+    color :  #f5af19;
+    font-size: 25px;
+ }
+ .Username {
+  color: #08D5E4;
+  font-size: 25px;
+  width: 88%;
+  text-align: center;
+  padding: 20px;
+ }
+ .ChartContainer {
+  width: 450px;
+  height: 450px;
+  background: #fff;
+  position: relative;
+  left:15%;
+ }
+ .Profileinfo {
+  color: #08D5E4 ;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  line-height: 30px;
+  margin: 5px;
+}
+}
+
+@media all and (max-width: 510px) {
+ .Home {
+    color :  #f5af19;
+    font-size: 20px;
+    padding :10px;
+    width: 100%;
+    height: 50px;
+ }
+ .Username {
+  color: #08D5E4;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  padding: 10px
+ }
+ .ChartContainer {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+ }
+ .Profileinfo {
+  justify-content: center;
+  font-size: 15px;
+  line-height: 30px;
+}
+.Profilenav {
+  display: block;
+  padding: 0px;
+}
+}

@@ -1,0 +1,86 @@
+.Scorecontainer {
+	color: #000;
+	height: 120px;
+	width: 54%;
+	background: #24C6DC;
+	display: flex;
+	top: -15px;
+	left: 23vw;
+	position: absolute;
+	border-radius: 5px;
+	border : 5px solid #fff;
+}
+.trumpDisplay {
+ text-align: center;
+ padding: 10px;
+width: 20%;
+}
+.scoreDisplay {
+ text-align: center;	
+ width: 60%;
+ padding : 0px;
+}
+.Score {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding : 10px;
+	padding-top: 0px;
+}
+.Aboutgame {
+	color: #fff;
+	height: 150px;
+	width: 200px;
+	background: #24C6DC;
+	top: 540px;
+	right : 30px;
+	position: absolute;
+	border-radius: 5px;
+	border : 5px solid #a8c0ff;
+}
+.Gamemessage {
+	text-align: center;
+	font-size: 16px;
+	line-height: 50px;
+	margin-top: 0px;
+	background: #24C6DC;
+	color : #000;
+}
+
+@media all and (max-width: 1350px) {
+
+	.Aboutgame {
+		right : 5px;
+		width: 100px;
+	}
+}
+@media all and (max-width: 1055px) {
+	.Scorecontainer {
+		font-size: 13px;
+	}
+}
+@media all and (max-width: 760px) {
+
+	.Aboutgame {
+		font-size: 13px;
+
+	}
+}
+@media all and (max-width: 650px) {
+
+	.Scorecontainer {
+		height : 130px;
+		width: 250px;
+		display: inline;
+		padding: 10px;
+		overflow: scroll;
+		text-align: center;
+	}
+	.Score{
+		display: inline;
+		padding: 0px;
+	}
+	.scoreDisplay {
+		display: inline;
+	}
+}

@@ -1,0 +1,98 @@
+.Backgroundlayout {
+  height: 100%;
+  width : 100%;
+  position: fixed;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Homenav {
+  height : 100px;
+  width : 100%;
+  display: flex;
+  color: #fff;
+}
+.Navitem {
+  margin-top : 20px;
+  width: 32%;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  color: #08D5E4;
+  font-weight: bold;
+}
+
+.Buttonbox {
+	color:#fff;
+	background:transparent;
+  position:absolute;
+	width:360px;
+  height:360px;
+  padding: 20px;
+  border:2px solid #08D5E4 ;
+  box-sizing:border-box;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%); 
+}
+
+.options {
+  position: relative;
+  height: 50px;
+  width :300px;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+  background: #FFA81B;
+  margin : 15px;
+  padding: 2px;
+}
+@media all and (max-width: 1200px) {
+  .Navitem {
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 900px) {
+  .Navitem {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 700px) {
+  .Homenav {
+    display: inline;
+  }
+  .Navitem {
+    margin : 2px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+  }
+}
+
+@media all and (max-width: 510px) {
+  .Buttonbox {
+    color:#fff;
+    background:transparent;
+    position:absolute;
+    width:300px;
+    height:300px;
+    padding: 50px 20px 20px 10px;
+    border:2px solid #08D5E4 ;
+    box-sizing:border-box;
+    top:300px;
+    left:50vw; 
+    margin : 10px;
+  }
+  .options {
+    position: relative;
+    height: 40px;
+    width :200px;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+    background: #FFA81B;
+    margin : 5px 30px 8px 30px;
+    padding: 2px;   
+    left : 2vw;
+  }
+}

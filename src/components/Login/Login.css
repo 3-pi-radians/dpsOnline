@@ -1,0 +1,120 @@
+.loginLayout {
+	height: 100%;
+    width: 100%;
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: fixed;
+}
+
+.loginbox {
+   color:#000;
+	background:#fff;
+    position:absolute;
+	width:380px;
+    height:420px;
+    padding:20px 20px 20px 20px;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: .25rem;
+    box-sizing:border-box;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+}
+.profile
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:140px;
+}
+.loginbox h2
+{   margin-top: 20px;
+	text-align: center;
+	color:#000;
+	margin-bottom:20px;
+}
+.loginbox label
+{   color:#000;
+	margin:0;
+	font-weight:bold;
+    font-size:19px;
+    font-style: Sans-Serif;
+}
+.loginbox input
+{       color: #000;
+		margin-bottom: 30px;
+		width:100%;
+}
+.loginbox input[type="text"],input[type="password"]
+{    font-style:Sans-Serif;
+	border:none;
+	height:40px;
+	margin-bottom: 25px;
+	background:transparent;
+	font-size:15px;
+	border-bottom:0.25px solid  #c31432;
+	outline:none;
+}
+.loginbox input[type="submit"]
+{   margin-top: 10px;
+	margin-bottom:18px;
+	border:none;
+	outline:none;
+   color:#fff;
+   background:#424949;
+   font-size:18px;
+   border-radius:10px;
+}
+.loginbox input[type="submit"]:hover
+{
+ cursor:pointer;
+ background:#212F3C;
+ color: #fff;
+}
+.message {
+	color: #FF1B37 ;
+	font-size: 14px;
+	text-align: center;
+}
+.notLogged
+{
+	font-size:15px;
+	font-style:Sans-Serif;
+    color:   #c31432;
+    text-align: center;
+	margin-bottom: 10px;
+	text-decoration: none;
+	padding-top:10px;
+}
+.notLogged:hover
+{
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+@media all and (max-width:510px) {
+	.loginbox {
+	    color:#000;
+		background:#fff;
+	    position:absolute;
+		width:300px;
+	    height:400px;
+	    padding:20px 20px 20px 20px;
+	    border-color: rgba(0, 0, 0, .2);
+	    border-radius: .25rem;
+	    box-sizing:border-box;
+	    top:50%;
+	    left:50%;
+	}
+	.profile {
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		position:absolute;
+		top:-50px;
+		left:100px;
+	}
+}

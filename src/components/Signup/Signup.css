@@ -1,0 +1,110 @@
+.signupLayout{
+	height: 100%;
+    width: 100%;
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: fixed;
+}
+.signbox {
+top:50%;
+left:50%;
+position: absolute;
+background: #fff;
+width:400px;
+height:500px;
+color:#000;
+border-color: rgba(0, 0, 0, .2);
+border-radius: .25rem;
+padding:10px 20px;
+line-height:25px;
+transform: translate(-50%,-50%);
+ box-shadow: 5px 5px 2px #;
+}
+
+.signbox h2 {
+	color:#000;
+	text-align: center;
+	margin-bottom:20px;
+}
+.signbox label {
+	font-size: 18px;
+	font-weight: bold;
+}
+.signbox input
+{
+color: #000;
+margin-bottom:30px;
+width:100%;
+}
+.signbox input[type="text"],input[type="password"]
+{
+    font-style:Sans-Serif;
+	border:none;
+	height:30px;
+	background:#fff;
+	font-size:15px;
+	border-bottom: 0.25px solid #c31432;
+	outline:none;
+
+}
+.signbox input[type="submit"]
+{
+	font-style:Sans-Serif;
+	border:none;
+	background:#424949;
+	color:#fff;
+	height:30px; 
+	margin-top:0px;
+	border-radius:20px;
+	outline: none;
+}
+.signbox input[type="submit"]:hover
+{
+	cursor:pointer;
+    background:#212F3C;
+    color:#fff;
+}
+.invalidEntry {
+	padding-top:  0px;
+	font-size: 13px;
+	color : red;
+}
+.signupMessage {
+	padding : 0px;
+	margin: -20px 0px 10px 0px;
+	font-size: 16px;
+	text-align: center;
+	color: red;
+}
+.alreadyLogged {
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+.alreadyLogged:hover {
+	text-decoration :underline solid #eee;
+}
+@media all and (max-width: 510px) {
+	.signbox {
+		top:50%;
+		left:50%;
+		position: absolute;
+		background: #fff;
+		width:300px;
+		height:480px;
+		color:#000;
+		border-color: rgba(0, 0, 0, .2);
+		border-radius: .25rem;
+		padding:10px 20px;
+		line-height:18px;
+		transform: translate(-50%,-50%);
+		 box-shadow: 5px 5px 2px #;
+    }
+    .alreadyLogged {
+	text-align: center;
+	cursor: pointer;
+	color: #030303;
+}
+}

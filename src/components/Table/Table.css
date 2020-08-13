@@ -1,0 +1,49 @@
+.Table {
+	background-color : #11732A;
+	position : absolute;
+	z-index: -1;
+    height : 480px; 
+	width : 800px;
+	min-width: 560px;
+	min-height: 300px;
+	border-radius: 240px;
+	border: 15px solid #C18607;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-43%);
+}
+.Cardanimate {
+ }
+.Deckcard {
+	height: 90px;
+	width : 65px;
+	border-radius: 7px;
+	border: 1px solid #fff;
+	background-color: #6d695c;
+	background-image:
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size: 70px 120px;
+	position: absolute;
+}
+
+@media all and (max-width: 1050px) {
+	.Table {
+     width : 720px;
+     height: 450px;
+	}
+}
+@media all and (max-width: 750px) {
+	.Table {
+		width: 608px;
+		height: 380px;
+	}
+}
+@media all and (max-width: 650px) {
+	.Table {
+		width: 512px;
+		height: 320px;
+	}
+}

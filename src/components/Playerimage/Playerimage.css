@@ -1,0 +1,120 @@
+
+.playerimage {
+	position: relative;
+}
+.firstPlayer {
+position:absolute;
+top :650px;
+left : 26vw;
+width: 47%;
+}
+.rightPlayer {
+position: relative;
+display: flex;
+top: 340px;
+left : 58vw;
+transform:rotate(90deg);
+justify-content: center;
+width: 47%
+}
+.topPlayer {
+position: absolute;
+display: flex;
+top:115px;
+left: 27vw;
+justify-content: center;
+width: 47%
+}
+.leftPlayer {
+position: absolute;
+display: flex;
+top: 340px;
+left: -5vw;
+transform:rotate(90deg);
+justify-content: center;
+width: 47%
+}
+.tablecards {
+	position: fixed;
+	top: 400px;
+	left: 700px;
+	justify-content: center;
+}
+.MyList {
+	display: flex;
+	justify-content: center;
+}
+.opponentList {
+	justify-content: center;
+}
+.Tablelist {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.table0 {
+ position : absolute;
+ top :  460px;
+ left : 49vw;
+}
+.table1 {
+	position: absolute;
+	top:  340px;
+	left : 62vw;
+	transform:rotate(90deg);
+	justify-content: center;
+
+}
+.table2 {
+ position: absolute;
+top:  210px;
+left: 49vw;
+justify-content: center;
+
+}
+.table3 {
+position: absolute;
+top: 340px;
+left: 36vw;
+transform:rotate(90deg);
+justify-content: center;
+}
+
+@media all and (max-width: 1300px) {
+	.topPlayer {
+	 	top : 110px;
+	}
+	.firstPlayer {
+		top : 610px;
+	}
+}
+@media all and (max-width: 1050px) {
+	.table2 {
+      top : 250px;
+	}
+	.table1{
+		top : 350px;
+	}
+	.table3{
+		top : 350px;
+	}
+
+}
+@media all and (max-width: 1350px) {
+
+	.leftPlayer{
+     left :-8vw;
+	}
+	.rightPlayer {
+		left : 61vw;
+	}
+}
+@media all and (max-width: 1250px) {
+
+	.leftPlayer{
+     left : -10vw;
+	}
+	.rightPlayer {
+		left : 64vw;
+	}
+}
