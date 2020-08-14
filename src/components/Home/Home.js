@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 
 const Home = ({onRouteChange, user, clearUser}) => {
+	
 		return (
 			<div className = 'Backgroundlayout'>
 			<div className = 'Homenav'>
